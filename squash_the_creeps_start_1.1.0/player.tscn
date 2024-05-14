@@ -1,14 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://b8076c0by485y"]
+[gd_scene load_steps=4 format=3 uid="uid://b8076c0by485y"]
 
+[ext_resource type="Script" path="res://player.gd" id="1_te8di"]
 [ext_resource type="PackedScene" uid="uid://c58tdrsqdknqo" path="res://art/player.glb" id="1_xllny"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_3v5sg"]
 radius = 0.791691
 
 [node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_te8di")
 
 [node name="Pivot" type="Node3D" parent="."]
-visible = false
 
 [node name="Character" parent="Pivot" instance=ExtResource("1_xllny")]
 
