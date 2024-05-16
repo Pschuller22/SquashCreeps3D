@@ -1,14 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715873058
+::res://::1715885132
 default_bus_layout.tres::AudioBusLayout::-1::1715715414::0::1::::<><>::
 default_env.tres::Environment::-1::1715715414::0::1::::<><>::
 icon.png::CompressedTexture2D::4614830147582486392::1606013320::1715715424::1::::<><>::
-main.gd::GDScript::-1::1715795711::0::1::::<>Node<>::
-main.tscn::PackedScene::1356173906097515085::1715795711::0::1::::<><>::res://main.gd<>uid://b8076c0by485y::::res://player.tscn<>uid://ikmh3osmm5j::::res://mob.tscn
-Mob.gd::GDScript::-1::1715794015::0::1::::<>CharacterBody3D<>::
-mob.tscn::PackedScene::17144033065612789::1715795529::0::1::::<><>::res://Mob.gd<>uid://6ilkkg1uy8b8::::res://art/mob.glb
-player.gd::GDScript::-1::1715721549::0::1::::<>CharacterBody3D<>::
-player.tscn::PackedScene::4756260414724739936::1715795529::0::1::::<><>::res://player.gd<>uid://c58tdrsqdknqo::::res://art/player.glb
+main.gd::GDScript::-1::1715881401::0::1::::<>Node<>::
+main.tscn::PackedScene::1356173906097515085::1715884793::0::1::::<><>::res://main.gd<>uid://b8076c0by485y::::res://player.tscn<>uid://ikmh3osmm5j::::res://mob.tscn<>uid://cjj6lr2yiifwi::::res://fonts/Montserrat-Medium.ttf<>res://ScoreLabel.gd
+Mob.gd::GDScript::-1::1715879310::0::1::::<>CharacterBody3D<>::
+mob.tscn::PackedScene::17144033065612789::1715885103::0::1::::<><>::res://Mob.gd<>uid://6ilkkg1uy8b8::::res://art/mob.glb
+music_player.tscn::PackedScene::3419777159046673465::1715884793::0::1::::<><>::uid://cwso410271wsc::::res://art/House In a Forest Loop.ogg
+player.gd::GDScript::-1::1715883431::0::1::::<>CharacterBody3D<>::
+player.tscn::PackedScene::4756260414724739936::1715885104::0::1::::<><>::res://player.gd<>uid://c58tdrsqdknqo::::res://art/player.glb
+ScoreLabel.gd::GDScript::-1::1715881401::0::1::::<>Label<>::
 ::res://art/::1715715425
 body.material::StandardMaterial3D::-1::1605912108::0::1::::<><>::
 eye.material::StandardMaterial3D::-1::1606517742::0::1::::<><>::
